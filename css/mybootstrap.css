@@ -25,7 +25,6 @@ div {
 }
 
 .container {
-    width: 800px;
     margin: auto;
     overflow: auto;
 }
