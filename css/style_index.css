@@ -1,0 +1,40 @@
+.jumbotron{
+    height: 100vh;
+    background-image: url(../pictures/Index_pic/index_bkg01.jpg);
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1::before{
+    content: '';
+    height: 100%
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+}
+
+.jumbotron p{
+    font-size: 20px;
+    color: white;
+}
+
+.container{
+    height: 50%;
+}
+
+.gravatar{
+    height: 100vh;
+    background-image: url(../pictures/Index_pic/index_bkg02.jpg);
+    color: white;
+    text-align: center;
+}
+
+.gravatar h2{
+    font-size: 35px;
+    color: white;
+}
+
+.gravatar p{
+    font-size: 20px;
+    color: white;
+}
