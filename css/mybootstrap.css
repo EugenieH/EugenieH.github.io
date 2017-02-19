@@ -210,7 +210,6 @@ ul { /* 取消ul預設的內縮及樣式 */
 }
 
 ul.drop-down-menu {
-    border: 1px solid white;
     display: inline-block;
     font-family: sans-serif;
     font-size: 18px;
@@ -252,7 +251,7 @@ ul.drop-down-menu ul {
     z-index: 99;
     left: -1px;
     top: 100%;
-   min-width: 180px;
+    min-width: 180px;
 }
 
 ul.drop-down-menu ul li {

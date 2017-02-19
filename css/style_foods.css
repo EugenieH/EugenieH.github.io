@@ -12,12 +12,40 @@
     line-height: 27px;
 }
 
-.lobster_button{
-    text-align: center;
+.lobster_button a{
+    text-decoration: none;
+    color: black
+}
+
+.lobster_button_bk{
+    background: none;
     width: 200px;
     height: 35px;
-    background-color: white;
     border: 2px solid #9b9b9b;
+}
+
+.lobster_button{
+    position: relative;;
+    top: -30px;
+    left: 8px;
+    width: 200px;
+    height: 35px;
+    color: black;
+    background-color: orange;
+    border: 2px solid #9b9b9b;
+    text-align: center;
+}
+
+.lobster_button:hover{
+    position: relative;;
+    top: -35px;
+    left: 0px;
+    background-color: aqua;
+}
+
+.lobster_button:visited{
+    background-color: yellow;
+    color: black;
 }
 
 
@@ -32,12 +60,83 @@
     line-height: 27px;
 }
 
+.raman_page_link a{
+    text-decoration: none;
+    color: black
+}
+
+.raman_brand_intro a{
+    text-decoration: none;
+    color: black
+}
+
+/*For Raman botton- airport*/
+
+.raman_button_a{
+    text-align: center;
+    width: 210px;
+    height: 35px;
+    background-color: none;
+    border: 2px solid #9b9b9b;
+}
+
+.raman_button_a:hover{
+    background-color: sandybrown;
+}
+
+/*For Raman botton- official site*/
+.raman_button_bk{
+    background: none;
+    width: 210px;
+    height: 35px;
+    border: 2px solid #9b9b9b;
+}
+
 .raman_button{
+    position: relative;;
+    top: -30px;
+    left: 8px;
     text-align: center;
     width: 210px;
     height: 35px;
     background-color: white;
     border: 2px solid #9b9b9b;
+}
+
+.raman_button:hover{
+    position: relative;;
+    top: -35px;
+    left: 0px;
+    background-color: aqua;
+}
+
+/*For Raman botton- FB*/
+.raman_button_bk1{
+    position: relative;;
+    top: -20px;
+    left: 0px;
+    background: none;
+    width: 210px;
+    height: 35px;
+    border: 2px solid #9b9b9b;
+}
+
+.raman_button1{
+    position: relative;;
+    top: -50px;
+    left: 8px;
+    text-align: center;
+    width: 210px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #9b9b9b;
+}
+
+.raman_button1:hover{
+    position: relative;;
+    top: -55px;
+    left: 0px;
+    background-color: aqua;
 }
 
 
@@ -49,5 +148,65 @@
 }
 
 .ice_cream {
+    background-color: pink;
+}
+
+.ice_page_link a{
+    text-decoration: none;
+    color: black;
+}
+
+/*For first Raman botton*/
+.ice_button_bk{
+    background: none;
+    width: 210px;
+    height: 35px;
+    border: 2px solid #9b9b9b;
+}
+
+.ice_button{
+    position: relative;;
+    top: -30px;
+    left: 8px;
+    text-align: center;
+    width: 210px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #9b9b9b;
+}
+
+.ice_button:hover{
+    position: relative;;
+    top: -35px;
+    left: 0px;
+    background-color: pink;
+}
+
+/*For 2nd Raman botton*/
+.ice_button_bk1{
+    position: relative;;
+    top: -20px;
+    left: 0px;
+    background: none;
+    width: 210px;
+    height: 35px;
+    border: 2px solid #9b9b9b;
+}
+
+.ice_button1{
+    position: relative;;
+    top: -50px;
+    left: 8px;
+    text-align: center;
+    width: 210px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #9b9b9b;
+}
+
+.ice_button1:hover{
+    position: relative;;
+    top: -55px;
+    left: 0px;
     background-color: pink;
 }
