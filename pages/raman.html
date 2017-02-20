@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Raman</title>
+    <link rel="stylesheet" href="../project/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/mybootstrap.css">
     <link rel="stylesheet" href="../css/style_foods.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     
+    <script src="../project/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../project/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
+    <!--原本的導覽列-開始
     <nav>
         <ul class="drop-down-menu">
             <li><a href="../index.html">Home</a></li>
@@ -27,6 +32,57 @@
             </li>
        </ul>
     </nav>
+    原本的導覽列-結束-->
+    
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="../pictures/Index_pic/Usagi.png" alt=""></a>
+            </div>
+    
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的導覽清單 -->
+                <ul class="nav navbar-nav">
+    
+                    <!-- active的選項-->
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+    
+                    <!-- 導覽清單中的dropdown選單 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Food <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lobster.html">Lobster</a></li>
+                            <li><a href="#">Ramen</a></li>
+                            <li><a href="ice-cream.html">Ice Cream</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Homework <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../homework/iphone/iphone.html">iPhone</a></li>
+                            <li><a href="../homework/RWD170211/test.html">Grid Practice</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    
     
     <div class="raman_back">
        
@@ -34,14 +90,14 @@
             <div class="container">
                 <div class="raman_brand_intro">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h1>The 'MUST EAT' raman in New Chitose Aireport in Hokkaido (北海道新千歲機場)</h1>    
+                        <h1>The 'MUST EAT' ramen in New Chitose Aireport in Hokkaido (北海道新千歲機場)</h1>    
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                         <img src="../pictures/for_food/raman_brand.jpg" width="100%" alt="raman_brand">   
                     </div>
                     <div class="col-xs-12 col-sm-9 col-md-4 col-lg-4">
                         <h2>Ebisoba Ichigen 一幻拉麵</h2>
-                        <p>It is not kidding the raman was recommanded as the 'must eat' in Hokkaido's airport due to its specia taste which was cooked by shrimp. Check the breif introduction from the airport's website!</p>
+                        <p>It is not kidding the ramen was recommanded as the 'must eat' in Hokkaido's airport due to its specia taste which was cooked by shrimp. Check the breif introduction from the airport's website!</p>
                         
                         <div class="raman_button_a">
                             <a href="http://www.new-chitose-airport.jp/tw/spend/shop/s146.html" target="_blank">Ichigen in Hokkaido's Airport</a>
@@ -57,7 +113,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <img src="../pictures/for_food/raman_front_door_v1.jpg" width="100%" alt="MTK sandwich">
                         <h2>Where can I find it?</h2>
-                        <p>The restaurant is located in Xinyi District, near Shin Kong Mitsukoshi department store. This area is one of the most expensive areas in East Taipei. As a result, a nice meal experience is expected to eat in this restaurant.<br>
+                        <p>The restaurant is located in Xinyi District, near Shin Kong Mitsukoshi department store. This area is one of the most expensive areas in East Taipei. As a result, a proper meal experience is expected to eat in this restaurant.<br>
                         Actually, this restaurant is so famous that you can always see people queueing in front of the door only for eating in.</p>
                     </div>
                 </div>
@@ -66,7 +122,7 @@
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <img src="../pictures/for_food/raman_menu_p1.jpg" width="100%" alt="MTK sandwich">
                         <h2>What choices do I have?</h2>
-                        <p>Actually there is not much choice in this restaurant as this restaurant is so confident that you would surely love there shrimp raman. Thus, you almost can only find all kinds shrimp raman with different flavor of soup.<br> Additionally, some side dishes such as Gyoza or Onigiri could also be ordered but only with shrimp flavor too! ;p</p>
+                        <p>Actually there is not much choice in this restaurant as this restaurant is so confident that you would surely love there shrimp ramen. Thus, you almost can only find all kinds shrimp ramen with different flavor of soup.<br> Additionally, some side dishes such as Gyoza or Onigiri could also be ordered but only with shrimp flavor too! ;p</p>
                     </div>
                 </div>
                 
@@ -86,8 +142,8 @@
                 <div class="raman_food_intro">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h2>So How does it Taste?</h2>
-                        <p>To be honest, the only feeling I have after tasting this bowl of raman is -- 'SO SHRIMP'!!<br>
-                        This sounds like very useless opinion, but no kidding, the taste of shrimp is super strong. Thus whether this raman is delicious or not depends on how much you like the flavor of shrimp. Of course you can imagine this conclusion must come from the fact (without any boast) the retaurant is cooking the soup by a lot of shrimps.<br>
+                        <p>To be honest, the only feeling I have after tasting this bowl of ramen is -- 'SO SHRIMP'!!<br>
+                        This sounds like very useless opinion, but no kidding, the taste of shrimp is super strong. Thus whether this ramen is delicious or not depends on how much you like the flavor of shrimp. Of course you can imagine this conclusion must come from the fact (without any boast) the retaurant is cooking the soup by a lot of shrimps.<br>
                         The red part on the top of the noodle is also some kind of spice which is produced from shrimp too. This spice increase the different level of taste texture and brings another aroma of shrimp to the noodle.<br>
                         All in all, this restaurant could be a good choice if you like seafood, especially shrimp. If not, then please find other restaurants suit you better.</p>
                     </div>

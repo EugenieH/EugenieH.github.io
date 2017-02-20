@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>About</title>
+    <link rel="stylesheet" href="project/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mybootstrap.css">
     <link rel="stylesheet" href="css/style_about.css">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     
+    <script src="project/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="project/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
+    <!--自製導覽列--開始
     <nav>
         <ul class="drop-down-menu">
             <li><a href="index.html">Home</a></li>
@@ -27,6 +32,56 @@
             </li>
        </ul>
     </nav>
+    自製導覽列-結束-->
+    
+     <!--導覽列開始-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="pictures/Index_pic/Usagi.png" alt=""></a>
+            </div>
+    
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的導覽清單 -->
+                <ul class="nav navbar-nav">
+    
+                    <!-- active的選項-->
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#">About<span class="sr-only">(目前頁面)</span></a></li>
+    
+                    <!-- 導覽清單中的dropdown選單 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Food <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pages/lobster.html">Lobster</a></li>
+                            <li><a href="pages/raman.html">Ramen</a></li>
+                            <li><a href="pages/ice-cream.html">Ice Cream</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Homework <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="homework/iphone/iphone.html">iPhone</a></li>
+                            <li><a href="homework/RWD170211/test.html">Grid Practice</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
     
     <div class="back">
         <section class="back">

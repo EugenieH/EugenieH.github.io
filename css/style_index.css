@@ -1,3 +1,4 @@
+
 header{
     height: 100vh;
     background-image: url(../pictures/Index_pic/index_bkg01.jpg);
@@ -8,7 +9,7 @@ header{
 
 header h1{
     position: absolute;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     left: 50%;
     top: 40%;
@@ -18,7 +19,7 @@ header h1{
 
 header p{
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     left: 50%;
     top: 50%;

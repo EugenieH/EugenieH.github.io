@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="project/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mybootstrap.css">
     <link rel="stylesheet" href="css/style_index.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    
+    <script src="project/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="project/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <!--自製導覽列
     <nav>
         <ul class="drop-down-menu">
             <li><a href="about.html">About</a></li>
@@ -25,14 +31,64 @@
             </li>
        </ul>
     </nav>
+    -->
+    
+    <!--導覽列開始-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="pictures/Index_pic/Usagi.png" alt=""></a>
+            </div>
+    
+            <!-- 導覽列選項 與導覽列中的表單元素 -->
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- 導覽列中的導覽清單 -->
+                <ul class="nav navbar-nav">
+    
+                    <!-- active的選項-->
+                    <li class="active"><a href="#">Home<span class="sr-only">(目前頁面)</span></a></li>
+                    <li><a href="about.html">About</a></li>
+    
+                    <!-- 導覽清單中的dropdown選單 -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Food <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="pages/lobster.html">Lobster</a></li>
+                            <li><a href="pages/raman.html">Ramen</a></li>
+                            <li><a href="pages/ice-cream.html">Ice Cream</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Homework <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="homework/iphone/iphone.html">iPhone</a></li>
+                            <li><a href="homework/RWD170211/test.html">Grid Practice</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    
+    
     
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <h1>Hello World</h1>
                     <p>The greeting from a beginner</p>
-                </div>
             </div>
         </div>
     </header>
@@ -52,7 +108,8 @@
                     </div>
                     
                     <h2>Eugenie</h2>
-                    <p>Just learned html web design for 2 months <br/>and found it is not as easy as what I have thought!!</p>
+                    <p>Just learned html web design for 2 months <br>and found it is not as easy as what I have thought!!  
+                    </p>
                 </div>
             </div>
         </div>
@@ -78,7 +135,7 @@
     
     <section>
         <div class="food_intro">
-        <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="lob_pic">
@@ -86,7 +143,7 @@
                             <img src="pictures/for_food/cute_lob.jpg" width="60%" alt="cute lobster"> 
                             </a>    
                         </div>
-                        <h2>Lobster</h2>
+                        <h3>Lobster</h3>
                         <p>In Taiwan, most lobsters in restaurants are import from Australia</p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
@@ -95,8 +152,8 @@
                                 <img src="pictures/for_food/noodle01v1.jpg" width="100%" alt="noodle sample">
                             </a>
                         </div>                        
-                        <h2>Ramen</h2>
-                        <p>Raman became one of the most popular food in Japan from World War II</p>
+                        <h3>Ramen</h3>
+                        <p>Ramen became one of the most popular food in Japan from World War II</p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="ice_pic">
@@ -104,7 +161,7 @@
                                 <img src="pictures/for_food/eat_ice_cream.jpg" width="100%" alt="ice cream kid">    
                             </a>
                         </div>
-                        <h2>Ice Cream</h2>
+                        <h3>Ice Cream</h3>
                         <p>In Lexington, Kentucky, it's illegal to carry an ice cream cone in your pocket</p>
                     </div>
                 </div>
