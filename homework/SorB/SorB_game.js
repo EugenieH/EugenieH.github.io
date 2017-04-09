@@ -10,17 +10,21 @@ function myFunction() {
 
 	var rand = Math.floor((Math.random() * 10) + 1);
 	//rander >= 5 比大，否則比小
-    if(rand >=5){
-		if(x>y){
-			document.getElementById("div").innerHTML+=" 這次比大，你贏了";
-		}else{
-			document.getElementById("div").innerHTML+=" 這次比大，你輸了";
-		}		
-	}else{
-		if(x<y){
-			document.getElementById("div").innerHTML+=" 這次比小，你贏了";
-		}else{
-			document.getElementById("div").innerHTML+=" 這次比小，你輸了";
+    if (rand >= 5) {
+		if (x > y) {
+			document.getElementById("div").innerHTML += " 這次比大，你贏了";
+		} else if (x < y) {
+			document.getElementById("div").innerHTML += " 這次比大，你輸了";
+		} else {
+			document.getElementById("div").innerHTML += " 這次比大，平手";
 		}
-	}    
+	} else {
+		if (x < y) {
+			document.getElementById("div").innerHTML += " 這次比小，你贏了";
+		} else if (x > y) {
+			document.getElementById("div").innerHTML += " 這次比小，你輸了";
+		} else {
+			document.getElementById("div").innerHTML += " 這次比小，平手";
+		}
+	}
 }
